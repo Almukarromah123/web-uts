@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SMK IT AL-MUKARROMAH</title>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+    <link rel="icon" type="image/x-icon" href="coba1.png">
+    <style>
+        body {
+            font-family: 'Poppins', sans-serif;
+            background-color: #f0f4f8;
+            margin: 0;
+            padding: 0;
+            color: #333;
+        }
+        header {
+            background-color: #2c3e50;
+            color: #ecf0f1;
+            padding: 20px 0;
+            text-align: center;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        }
+        header img {
+            width: 80px;
+            margin-bottom: 10px;
+        }
+        nav {
+            display: flex;
+            justify-content: center;
+            background-color: #34495e;
+            padding: 10px 0;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        }
+        nav a {
+            color: #ecf0f1;
+            text-decoration: none;
+            margin: 0 20px;
+            font-weight: 600;
+        }
+        nav a:hover {
+            color: #f39c12;
+            text-decoration: underline; /* Underline on hover */
+        }
+        .content {
+            max-width: 900px;
+            margin: 40px auto;
+            background-color: #fff;
+            padding: 30px;
+            border-radius: 8px;
+            box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+        }
+        .content h2 {
+            color: #2c3e50;
+            margin-bottom: 20px;
+            font-size: 1.5em;
+        }
+        .content ul {
+            list-style-type: none;
+            padding: 0;
+        }
+        .content li {
+            margin: 10px 0;
+        }
+        .content a {
+            color: #3498db;
+            text-decoration: none;
+            font-weight: 500;
+        }
+        .content a:hover {
+            text-decoration: underline;
+        }
+        footer {
+            text-align: center;
+            padding: 20px;
+            background-color: #34495e;
+            color: #ecf0f1;
+            font-size: 0.9em;
+            margin-top: 40px;
+        }
+        footer p {
+            margin: 5px 0;
+        }
+
+        /* Gaya untuk gelembung WhatsApp */
+        .whatsapp-float {
+            position: fixed;
+            bottom: 20px;
+            right: 20px;
+            background-color: #25d366;
+            color: white;
+            border-radius: 50px;
+            width: 60px;
+            height: 60px;
+            text-align: center;
+            font-size: 30px;
+            box-shadow: 2px 2px 3px #999;
+            z-index: 1000;
+        }
+        .whatsapp-float img {
+            width: 100%;
+            height: 100%;
+            border-radius: 50%;
+        }
+
+        /* Responsif */
+        @media (max-width: 768px) {
+            nav {
+                flex-direction: column;
+            }
+            nav a {
+                margin: 10px 0;
+            }
+            .content {
+                margin: 20px;
+                padding: 20px;
+            }
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <img src="coba1.PNG" alt="Logo SMK IT AL-MUKARROMAH">
+    <h1>SMK IT AL-MUKARROMAH</h1>
+</header>
+
+<nav>
+    <a href="#ujian">Soal Ujian</a>
+    <a href="#kontak">Kontak</a>
+    <a href="jadwalujian.html">Jadwal Ujian</a>
+</nav>
+
+<div class="content">
+    <h2>Soal Ujian</h2>
+    <p>Berikut adalah soal ujian KELAS 10:</p>
+    <ul>
+        <li><a href="https://forms.gle/QPfnKhsJSFLs85SW7" target="_blank">Pendidikan Agama Islam</a></li>
+        <li><a href="https://forms.gle/oBGD4kDsz4MXGr1d8" target="_blank">Ilmu Pengetahuan Alam & Sosial</a></li>
+    </ul>
+
+    <p>Berikut adalah soal ujian KELAS 11:</p>
+    <ul>
+        <li><a href="https://forms.gle/pkPqwiww5bDJWYhr7" target="_blank">Pendidikan Agama Islam</a></li>
+        <li><a href="https://forms.gle/EF7fen2ijngx873R8" target="_blank">Ilmu Pengetahuan Alam & Sosial</a></li>
+    </ul>
+
+    <p>Berikut adalah soal ujian KELAS 12:</p>
+    <ul>
+        <li><a href="https://forms.gle/MaWsSjcbQhGZXg2V8" target="_blank">Pendidikan Agama Islam</a></li>
+        <li><a href="https://forms.gle/Lx3xvfVDNPXqvdkF9" target="_blank">Ilmu Pengetahuan Alam & Sosial</a></li>
+    </ul>
+</div>
+
+<div class="content" id="kontak">
+    <h2>Kontak Kami</h2>
+    <p>Email  : smkitalmukarromah@gmail.com</p>
+    <p>Telepon: +62-896-1763-6775</p>
+    <p>Alamat : Jln. Cilewo-Pancawati KM5 Dsn. Selang 2 rt.016 rw.004 Ds. Ciwaringin Kec. Lemahabang Kab. Karawang 41383</p>
+</div>
+
+<footer>
+    <p>&copy; 2024 SMK IT AL-MUKARROMAH. Semua hak dilindungi.</p>
+</footer>
+
+<!-- Gelembung WhatsApp -->
+<a href="https://wa.me/628978874932" target="_blank" class="whatsapp-float">
+    <img src="https://upload.wikimedia.org/wikipedia/commons/6/6b/WhatsApp.svg" alt="WhatsApp">
+</a>
+
+</body>
+</html>
